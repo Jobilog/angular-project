@@ -1,0 +1,19 @@
+<div class="modal-backdrop" *ngIf="show">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>{{ title }}</h2>
+      </div>
+      <div class="modal-body">
+        <ng-content></ng-content>
+      </div>
+      <div class="modal-footer">
+        <button (click)="onDelete()" class="modal-button-delete">
+          Delete
+        </button>
+        <button (click)="onCancel()" class="modal-button-cancel">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+  

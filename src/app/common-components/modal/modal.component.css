@@ -1,0 +1,50 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .modal-footer{
+    display: flex;
+    position: relative;
+    left: 22rem;
+  
+ 
+  }
+  .modal-button-cancel{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: silver;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .modal-button-delete{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #f50000d1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
